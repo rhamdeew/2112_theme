@@ -7,7 +7,8 @@ main {
 
 .global-header {
     background: #222 no-repeat center center;
-    background-size: cover;
+    background-size: contain;
+    height: 250px;
 }
 
 .header-text {
@@ -53,7 +54,7 @@ main {
 
 .header-text h1 {
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 120px;
     text-align: center;
     font-weight: 200;
 }
